@@ -1,0 +1,143 @@
+
+/*
+Theme Name : Your template name
+Theme URL : Your template url
+Description : Descriptions
+Author : shahtryuir
+Author URL : Author url
+Version : Template version
+*/
+
+
+@font-face {
+    font-family:iran-sans;
+    src: url('../../fonts/iranian-sans.eot?#') format('eot'), /* IE6–8 */
+    url('../../fonts/iranian-sans.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../../fonts/iranian-sans.ttf') format('truetype');
+    /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+body{
+	box-sizing: border-box;
+	font-family: iran-sans;
+    font-size: 14px;
+    height: 1100px;
+    background-color: #eee;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+b{
+	display: block;
+}
+a{
+    color: #999;
+    text-decoration: none !important;
+}
+.affix{
+	top: 0px;
+	
+	
+}
+.padding0{
+	padding: 0px;
+}
+.margin0{
+	margin:0px;
+}
+.flex{
+	display: flex;
+}
+.image_box{
+
+	background-color: #fff;
+	padding:1px;margin-top: 10px;box-shadow: 1px 2px 6px #999;border-radius: 5px;
+}
+.round5{
+	border-radius: 5px;
+}
+.small_image_box_right{
+	height: 126px;
+padding:0px;box-shadow: 1px 2px 6px #999;border-radius: 5px;
+text-align: center;
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    margin:10px 0px 5px  5px;	
+    flex-grow: 1;
+}
+.small_image_box_left{
+	height: 126px;
+	flex-grow: 1;
+padding:0px;box-shadow: 1px 2px 6px #999;border-radius: 5px;
+text-align: center;
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    margin:10px 5px 5px  0px;	
+}
+.rounded_img{
+	width: 100%;border-radius: 5px;
+}
+.fill_parent{width: 100%;}
+
+.fill_parent_hieght{
+	height: 100%;
+}
+.flex_grow1{
+	flex-grow: 1;
+}
+.center_both{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorfff{
+	color: #fff;
+}
+.fsize16:{
+font-size: 16px;
+}
+.fsize14:{
+font-size: 14px;
+}
+.fsize12:{
+font-size: 12px;
+}
+.mosalas{
+	position: relative;
+    height: 12px;
+   opacity: 0;
+}
+
+.footer_of_slider ul li a:hover{
+	color: #555;
+	background-color: #fff;
+	border-bottom: 1px solid #ff0000;
+}
+
+#top_menu{
+							height: 100%;
+						}
+							
+							#top_menu ul{
+								justify-content: space-between;
+								padding: 0px;
+								list-style: none;
+								display: flex;
+								margin:0px;
+								height: 54px;
+								align-items: center;
+							}
+							#top_menu ul li{
+							}
+							#top_menu ul li a{
+								text-decoration: none !important;
+							
+							}
+							#top_menu ul li a img{
+								margin-left: 2px;
+							}
